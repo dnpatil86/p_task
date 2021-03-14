@@ -1,7 +1,6 @@
 from selenium import webdriver
 import time
 import json
-path = "C:\webdrivers\chromedriver.exe"
 driver = webdriver.Chrome(path)
 driver.get("https://www.midsouthshooterssupply.com/dept/reloading/primers?currentpage=1")
 results = driver.find_elements_by_class_name("product")
